@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 7.4.10), pkg-kde-tools (>= 0.6.8), cmake,
  libx11-dev, shared-desktop-ontologies
 Standards-Version: 3.9.2
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokekde
-Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokeqt.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokeqt.git;a=summary
+Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokekde.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokekde.git;a=summary
 
 Package: libsmokekdecore4-3
 Section: libs
