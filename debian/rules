@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+
+override_dh_install:
+	dh_install --list-missing
+
+override_dh_strip:
+	dh_strip --dbg-package=libsmokekde4-dbg
+
+#Build-Depend on pkg-kde-tools (>= 0.6.8) for dh_sodeps
+override_dh_gencontrol:
+	dh_sodeps
+	dh_gencontrol
+
+#Smokegen may segfault on akonadi
+#override_dh_auto_configure:
+#	dh_auto_configure -- -DDISABLE_Akonadi=1
+
+#Build-Depend on debhelper (>= 7.4.10) for --parallel
+%:
+	dh $@ --parallel
+
