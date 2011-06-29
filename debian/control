@@ -284,6 +284,8 @@ Description: Soprano SMOKE library
 Package: libsmokekde4-dbg
 Section: debug
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdebindings-dbg
+Replaces: kdebindings-dbg
 Architecture: any
 Priority: extra
 Description: KDE SMOKE libraries debug symbols
