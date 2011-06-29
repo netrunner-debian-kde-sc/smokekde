@@ -22,7 +22,7 @@ Description: KDE Core SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekdeui4-3
 Section: libs
@@ -35,7 +35,7 @@ Description: KDE Ui SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekfile3
 Section: libs
@@ -48,7 +48,7 @@ Description: KFile SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekparts3
 Section: libs
@@ -61,7 +61,7 @@ Description: KParts SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokektexteditor3
 Section: libs
@@ -74,7 +74,7 @@ Description: KTextEditor SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekutils3
 Section: libs
@@ -87,7 +87,7 @@ Description: KUtils SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokesolid3
 Section: libs
@@ -100,7 +100,7 @@ Description: Solid SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeattica3
 Section: libs
@@ -113,7 +113,7 @@ Description: Attica SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekhtml3
 Section: libs
@@ -126,7 +126,7 @@ Description: KHTML SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekio3
 Section: libs
@@ -139,7 +139,7 @@ Description: KIO SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeknewstuff2-3
 Section: libs
@@ -152,7 +152,7 @@ Description: KNewStuff2 SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeknewstuff3-3
 Section: libs
@@ -165,7 +165,7 @@ Description: KNewStuff3 SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeokular3
 Section: libs
@@ -178,7 +178,7 @@ Description: Okular SMOKE bindings
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeplasma3
 Section: libs
@@ -191,7 +191,7 @@ Description: Plasma SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokeakonadi3
 Section: libs
@@ -204,7 +204,7 @@ Description: Akonadi SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokenepomuk3
 Section: libs
@@ -217,7 +217,7 @@ Description: Nepomuk SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 
 Package: libsmokenepomukquery3
@@ -231,7 +231,7 @@ Description: Nepomuk Query SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 
 Package: libsmokesoprano3
@@ -247,7 +247,7 @@ Description: Soprano SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 
 Package: libsmokesopranoclient3
@@ -263,7 +263,7 @@ Description: Soprano SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 
 Package: libsmokesopranoserver3
@@ -279,7 +279,7 @@ Description: Soprano SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekde4-dbg
 Section: debug
@@ -293,7 +293,7 @@ Description: KDE SMOKE libraries debug symbols
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
 Package: libsmokekde-dev
 Section: libdevel
@@ -306,5 +306,5 @@ Description: development files for Soprano SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke KDE module.
+ This is part of the SMOKE KDE module.
 
