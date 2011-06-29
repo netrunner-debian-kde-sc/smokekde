@@ -282,9 +282,10 @@ Description: Soprano SMOKE library
  This is part of the Smoke KDE module.
 
 Package: libsmokekde4-dbg
-Section: libs
+Section: debug
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
+Priority: extra
 Description: KDE SMOKE libraries debug symbols
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains debug symbols for the KDE SMOKE libraries.
