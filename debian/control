@@ -193,19 +193,18 @@ Description: Plasma SMOKE library
  .
  This is part of the Smoke KDE module.
 
-#Smokegen segfault
-#Package: libsmokeakonadi3
-#Section: libs
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Architecture: any
-#Description: Akonadi SMOKE library
-# SMOKE libraries are part of the bindings used for Qt and KDE. This package
-# contains the Akonadi parts of SMOKE.
-# .
-# SMOKE provides infrastructure which is used for creating bindings for
-# multiple languages such as Ruby, C# and PHP.
-# .
-# This is part of the Smoke KDE module.
+Package: libsmokeakonadi3
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: Akonadi SMOKE library
+ SMOKE libraries are part of the bindings used for Qt and KDE. This package
+ contains the Akonadi parts of SMOKE.
+ .
+ SMOKE provides infrastructure which is used for creating bindings for
+ multiple languages such as Ruby, C# and PHP.
+ .
+ This is part of the Smoke KDE module.
 
 Package: libsmokenepomuk3
 Section: libs
