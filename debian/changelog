@@ -1,6 +1,24 @@
 smokekde (4:4.6.80-1) UNRELEASED; urgency=low
 
+  * Initial release, split from the kdebindings source.
+
   [ David Palacio ]
-  * Source package `kdebindings` split.
+  * Update control:
+    - add libsmokekde4-dbg
+    - update Uploaders
+  * Switch to dh7:
+    - clean rules
+    - pass --list-missing to dh_install
+  * Adapt watch file to the new source name.
+  * Adapt Vcs fields.
+  * Switch copyright to the DEP5 format, revision 174.
+
+  [ Pino Toscano ]
+  * Update control:
+    - libsmokekde4-dbg: make it break/replace kdebindings-dbg, fix Section
+      and Priority
+    - improve descriptions
+  * Update rules:
+    - pass sodeps as dh addon
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
