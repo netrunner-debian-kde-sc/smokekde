@@ -12,6 +12,8 @@ smokekde (4:4.6.80-1) UNRELEASED; urgency=low
   * Adapt watch file to the new source name.
   * Adapt Vcs fields.
   * Switch copyright to the DEP5 format, revision 174.
+  * Add patch fix_smoke_config_install_path.diff to fix installation of the
+    kde-config.xml configuration.
 
   [ Pino Toscano ]
   * Update control:
