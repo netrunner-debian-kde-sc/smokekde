@@ -1,3 +1,8 @@
+Author: David Palacio <dpalacio@orbitalibre.org>
+Description: Fix installation of kde-config.xml
+Last-Update: 2011-06-24
+Forwarded: no
+
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
 @@ -80,4 +80,4 @@ target_link_libraries(smokekdecore
