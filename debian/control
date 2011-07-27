@@ -238,7 +238,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
 Replaces: libsmokekde4-2 (<< 4:4.2.60)
 Architecture: any
-Description: Soprano SMOKE library
+Description: Soprano Client SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains the Soprano client parts of SMOKE.
  .
@@ -253,7 +253,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
 Replaces: libsmokekde4-2 (<< 4:4.2.60)
 Architecture: any
-Description: Soprano SMOKE library
+Description: Soprano Server SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains the Soprano server parts of SMOKE.
  .
@@ -269,7 +269,7 @@ Breaks: kdebindings-dbg
 Replaces: kdebindings-dbg
 Architecture: any
 Priority: extra
-Description: KDE SMOKE libraries debug symbols
+Description: KDE SMOKE libraries -- debug symbols
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains debug symbols for the KDE SMOKE libraries.
  .
@@ -282,7 +282,7 @@ Package: libsmokekde-dev
 Section: libdevel
 Depends: libsmokeqt4-dev (= ${binary:Version}), ${so:Depends}, ${misc:Depends}
 Architecture: any
-Description: development files for Soprano SMOKE libraries
+Description: KDE SMOKE libraries -- development files
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains the KDE SMOKE development files.
  .
