@@ -23,6 +23,7 @@ smokekde (4:4.7.0-0r1) UNRELEASED; urgency=low
   * Update rules:
     - pass sodeps as dh addon
   * Update copyright.
+  * Update lintian overrides.
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.
