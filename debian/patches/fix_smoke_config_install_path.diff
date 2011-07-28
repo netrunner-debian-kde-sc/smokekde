@@ -1,7 +1,7 @@
 Author: David Palacio <dpalacio@orbitalibre.org>
 Description: Fix installation of kde-config.xml
 Last-Update: 2011-06-24
-Forwarded: no
+Applied-Upstream: 4.7.1, commit:57a7fccf10a22f9541beb94dca6320941ab06f05
 
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
