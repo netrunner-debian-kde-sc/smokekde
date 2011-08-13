@@ -20,6 +20,8 @@ smokekde (4:4.7.0-0r1) UNRELEASED; urgency=low
     - libsmokekde4-dbg: make it break/replace kdebindings-dbg, fix Section
       and Priority
     - improve descriptions
+    - require smoke-dev-tools and libsmokeqt4-dev >= 4.7.0, and make
+      libsmokekde-dev depend on them
   * Update rules:
     - pass sodeps as dh addon
   * Update copyright.
