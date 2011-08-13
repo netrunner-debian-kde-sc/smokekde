@@ -205,7 +205,6 @@ Description: Nepomuk SMOKE libraries
  .
  This is part of the SMOKE KDE module.
 
-
 Package: libsmokenepomukquery3
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
@@ -217,7 +216,6 @@ Description: Nepomuk Query SMOKE libraries
  multiple languages such as Ruby, C# and PHP.
  .
  This is part of the SMOKE KDE module.
-
 
 Package: libsmokesoprano3
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -233,7 +231,6 @@ Description: Soprano SMOKE library
  .
  This is part of the SMOKE KDE module.
 
-
 Package: libsmokesopranoclient3
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
@@ -247,7 +244,6 @@ Description: Soprano Client SMOKE library
  multiple languages such as Ruby, C# and PHP.
  .
  This is part of the SMOKE KDE module.
-
 
 Package: libsmokesopranoserver3
 Depends: ${shlibs:Depends}, ${misc:Depends}
