@@ -261,7 +261,7 @@ Description: Soprano Server SMOKE library
 
 Package: libsmokekde4-dbg
 Section: debug
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libsmokekdecore4-3 (= ${binary:Version}), ${misc:Depends}
 Breaks: kdebindings-dbg
 Replaces: kdebindings-dbg
 Architecture: any
