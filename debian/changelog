@@ -29,6 +29,7 @@ smokekde (4:4.7.0-0r1) UNRELEASED; urgency=low
   * Backport upstream patches:
     - fix-kutils-linking.patch: fix the link of smokekutils
     - fix-knewstuff2-binding.patch: fix the generation of smokeknewstuff2
+  * Link in --as-needed mode.
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.
