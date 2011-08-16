@@ -1,1 +1,3 @@
 fix_smoke_config_install_path.diff
+fix-kutils-linking.patch
+fix-knewstuff2-binding.patch

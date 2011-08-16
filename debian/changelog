@@ -26,6 +26,9 @@ smokekde (4:4.7.0-0r1) UNRELEASED; urgency=low
     - pass sodeps as dh addon
   * Update copyright.
   * Update lintian overrides.
+  * Backport upstream patches:
+    - fix-kutils-linking.patch: fix the link of smokekutils
+    - fix-knewstuff2-binding.patch: fix the generation of smokeknewstuff2
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.

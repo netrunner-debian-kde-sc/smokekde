@@ -1,0 +1,46 @@
+From 783511a71156c4d72b3c8fdcd7694448d532934c Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Tue, 16 Aug 2011 21:45:08 +0200
+Subject: [PATCH] fix knewstuff2 binding
+
+reference actual used classes, like Author, Engine, Entry, and KTranslatable, in addition to Button;
+remove non-existing classes;
+include the proper header for Button
+---
+ knewstuff2/knewstuff2_includes.h |    1 +
+ knewstuff2/smokeconfig.xml       |    7 ++++---
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/knewstuff2/knewstuff2_includes.h b/knewstuff2/knewstuff2_includes.h
+index b394c1d..c8b47eb 100644
+--- a/knewstuff2/knewstuff2_includes.h
++++ b/knewstuff2/knewstuff2_includes.h
+@@ -3,6 +3,7 @@
+ #include <knewstuff2/core/category.h>
+ #include <knewstuff2/core/ktranslatable.h>
+ #include <knewstuff2/core/installation.h>
++#include <knewstuff2/ui/knewstuffbutton.h>
+ #include <knewstuff2/ui/knewstuffaction.h>
+ #include <knewstuff2/engine.h>
+ #include <knewstuff2/knewstuff_export.h>
+diff --git a/knewstuff2/smokeconfig.xml b/knewstuff2/smokeconfig.xml
+index a60b2bc..a8c54cf 100644
+--- a/knewstuff2/smokeconfig.xml
++++ b/knewstuff2/smokeconfig.xml
+@@ -42,9 +42,10 @@
+         <name>.*i18n.*</name>
+     </functions>
+     <classList>
++        <class>KNS::Author</class>
+         <class>KNS::Button</class>
+-        <class>KNS::CoreEngine</class>
+-        <class>KNS::ProviderLoader</class>
+-        <class>KNS::UploadDialog</class>
++        <class>KNS::Engine</class>
++        <class>KNS::Entry</class>
++        <class>KNS::KTranslatable</class>
+     </classList>
+ </config>
+-- 
+1.7.5.4
+

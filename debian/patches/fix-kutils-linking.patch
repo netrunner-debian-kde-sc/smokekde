@@ -1,0 +1,31 @@
+From fa260d7399bbeede0aa4c48bf4ae226f3030b3b0 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Tue, 16 Aug 2011 21:41:21 +0200
+Subject: [PATCH] fix kutils linking
+
+instead of linking to the (now empty) kutils library, link directly to the kemoticons, kidletime, kcmutils, and kprintutils libraries
+this avoids potential issues when linking in "as-needed" mode
+---
+ kutils/CMakeLists.txt |    6 ++++--
+ 1 files changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/kutils/CMakeLists.txt b/kutils/CMakeLists.txt
+index cae67e7..3d61109 100644
+--- a/kutils/CMakeLists.txt
++++ b/kutils/CMakeLists.txt
+@@ -34,8 +34,10 @@ target_link_libraries(smokekutils
+     ${QT_QTGUI_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+     ${KDE4_KDEUI_LIBS}
+-    ${KDE4_KIO_LIBS}
+-    ${KDE4_KUTILS_LIBS}
++    ${KDE4_KEMOTICONS_LIBS}
++    ${KDE4_KIDLETIME_LIBS}
++    ${KDE4_KCMUTILS_LIBS}
++    ${KDE4_KPRINTUTILS_LIBS}
+     smokekdeui
+     ${SMOKE_QTCORE_LIBRARY}
+     ${SMOKE_BASE_LIBRARY}
+-- 
+1.7.5.4
+
