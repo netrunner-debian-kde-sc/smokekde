@@ -14,6 +14,7 @@ smokekde (4:4.7.1-1) UNRELEASED; urgency=low
   * Drop version for the smoke-dev-tools and libsmokeqt4-dev dependencies
     of libsmokekde4-dev; the right versions will be picked because of the
     stricter libsmokebase and libsmokeq* (indirect) dependencies.
+  * Bump the smoke-dev-tools and libsmokeqt4-dev build-dependencies to 4.7.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 10:47:45 -0500
 
