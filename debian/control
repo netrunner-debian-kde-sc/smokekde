@@ -277,7 +277,7 @@ Description: KDE SMOKE libraries -- debug symbols
 
 Package: libsmokekde-dev
 Section: libdevel
-Depends: libsmokeqt4-dev (>= 4:4.7.0), smoke-dev-tools (>= 4:4.7.0),
+Depends: libsmokeqt4-dev, smoke-dev-tools,
  ${so:Depends}, ${misc:Depends}
 Architecture: any
 Description: KDE SMOKE libraries -- development files
