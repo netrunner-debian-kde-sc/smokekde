@@ -2,7 +2,13 @@ smokekde (4:4.7.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 10:41:24 -0500
+  [ David Palacio ]
+  * Remove patches applied upstream:
+    - fix_smoke_config_install_path.diff
+    - fix-knewstuff2-binding.patch
+    - fix-kutils-linking.patch
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 10:47:45 -0500
 
 smokekde (4:4.7.0-1) unstable; urgency=low
 
