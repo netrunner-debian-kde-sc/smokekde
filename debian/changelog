@@ -1,4 +1,4 @@
-smokekde (4:4.7.1-1) UNRELEASED; urgency=low
+smokekde (4:4.7.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -18,7 +18,7 @@ smokekde (4:4.7.1-1) UNRELEASED; urgency=low
   * Manually export CXXFLAGS and LDFLAGS from dpkg-buildflags now,
     as dpkg-buildpackage does not do that anymore.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 10:47:45 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2011 17:24:18 +0200
 
 smokekde (4:4.7.0-1) unstable; urgency=low
 
