@@ -7,6 +7,8 @@ smokekde (4:4.7.4-0r1) UNRELEASED; urgency=low
   * Bump debhelper build dependency to >= 9, and compat to 9.
   * Do not manually export CXXFLAGS and LDFLAGS now, since compat v9 does
     that already.
+  * Use DEB_LDFLAGS_MAINT_APPEND to append out custom LDFLAGS, instead of
+    passing them directly to cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Apr 2012 19:08:58 +0200
 
