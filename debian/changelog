@@ -11,6 +11,7 @@ smokekde (4:4.7.4-0r1) UNRELEASED; urgency=low
     passing them directly to cmake.
   * Update copyright:
     - switch to copyright-format v1.0
+    - add entry for myself, for last year and the current one
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Apr 2012 19:08:58 +0200
 
