@@ -3,12 +3,12 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Torsten Marek <shlomme@debian.org>, Sune Vuorela <sune@debian.org>, David Palacio <dpalacio@orbitalibre.org>, Michael Meskes <meskes@debian.org>
-Build-Depends: debhelper (>= 7.4.10), pkg-kde-tools (>= 0.6.8), cmake,
- smoke-dev-tools (>= 4:4.7.1), libsmokeqt4-dev (>= 4:4.7.1),
+Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
+ smoke-dev-tools (>= 4:4.7.4), libsmokeqt4-dev (>= 4:4.7.4),
  kdelibs5-dev, kdepimlibs5-dev,
  libqt4-opengl-dev, libsoprano-dev, okular-dev, libakonadi-dev, libattica-dev,
  libx11-dev, shared-desktop-ontologies
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokekde
 Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokekde.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokekde.git;a=summary

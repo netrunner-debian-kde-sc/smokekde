@@ -1,3 +1,21 @@
+smokekde (4:4.7.4-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Bump debhelper build dependency to >= 9, and compat to 9.
+  * Do not manually export CXXFLAGS and LDFLAGS now, since compat v9 does
+    that already.
+  * Use DEB_LDFLAGS_MAINT_APPEND to append out custom LDFLAGS, instead of
+    passing them directly to cmake.
+  * Update copyright:
+    - switch to copyright-format v1.0
+    - add entry for myself, for last year and the current one
+  * Bump the smoke-dev-tools and libsmokeqt4-dev build dependencies
+    to >= 4:4.7.4.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 04 Apr 2012 09:46:14 +0200
+
 smokekde (4:4.7.1-1) unstable; urgency=low
 
   * New upstream release.
