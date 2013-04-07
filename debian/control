@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
  smoke-dev-tools (>= 4:4.10), libsmokeqt4-dev (>= 4:4.10),
  kdelibs5-dev (>= 4:4.10), kdepimlibs5-dev (>= 4:4.10),
  libqt4-opengl-dev, libsoprano-dev, okular-dev (>= 4:4.10), libakonadi-dev, libattica-dev,
- libx11-dev, shared-desktop-ontologies
+ libx11-dev, shared-desktop-ontologies, nepomuk-core-dev
 Standards-Version: 3.9.3
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokekde
 Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokekde.git
