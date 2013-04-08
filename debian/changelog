@@ -1,3 +1,8 @@
+smokekde (4:4.10.2-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Apr 2013 14:11:51 +0200
+
 smokekde (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
