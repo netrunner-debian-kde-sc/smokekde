@@ -1,3 +1,9 @@
+smokekde (4:4.10.2-3) UNRELEASED; urgency=low
+
+  * Update watch file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 19:59:47 +0200
+
 smokekde (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
