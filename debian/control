@@ -7,20 +7,29 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            David Palacio <dpalacio@orbitalibre.org>,
            Michael Meskes <meskes@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
- smoke-dev-tools (>= 4:4.11), libsmokeqt4-dev (>= 4:4.11),
- kdelibs5-dev (>= 4:4.11), kdepimlibs5-dev (>= 4:4.11),
- libqt4-opengl-dev, libsoprano-dev, okular-dev (>= 4:4.11),
- libakonadi-dev, libattica-dev,
- libx11-dev, shared-desktop-ontologies, nepomuk-core-dev,
- pkg-config,
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kdelibs5-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libakonadi-dev,
+               libattica-dev,
+               libqt4-opengl-dev,
+               libsmokeqt4-dev (>= 4:4.11),
+               libsoprano-dev,
+               libx11-dev,
+               nepomuk-core-dev,
+               okular-dev (>= 4:4.11),
+               pkg-config,
+               pkg-kde-tools (>= 0.6.8),
+               shared-desktop-ontologies,
+               smoke-dev-tools (>= 4:4.11)
 Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokekde
 Vcs-Git: git://anonscm.debian.org/git/pkg-kde/kde-sc/smokekde.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokekde.git;a=summary
 
 Package: libsmokekdecore4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KDE Core SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -32,7 +41,7 @@ Description: KDE Core SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokekdeui4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KDE Ui SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -44,7 +53,7 @@ Description: KDE Ui SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokekfile3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KFile SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -56,7 +65,7 @@ Description: KFile SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokekparts3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KParts SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -68,7 +77,7 @@ Description: KParts SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokektexteditor3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KTextEditor SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -80,7 +89,7 @@ Description: KTextEditor SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokekutils3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KUtils SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -92,7 +101,7 @@ Description: KUtils SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokesolid3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Solid SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -104,7 +113,7 @@ Description: Solid SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokeattica3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Attica SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -116,7 +125,7 @@ Description: Attica SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokekhtml3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KHTML SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -128,7 +137,7 @@ Description: KHTML SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokekio3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KIO SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -140,7 +149,7 @@ Description: KIO SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokeknewstuff2-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KNewStuff2 SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -152,7 +161,7 @@ Description: KNewStuff2 SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokeknewstuff3-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: KNewStuff3 SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -164,7 +173,7 @@ Description: KNewStuff3 SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokeokular3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Okular SMOKE bindings
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -176,7 +185,7 @@ Description: Okular SMOKE bindings
  This is part of the SMOKE KDE module.
 
 Package: libsmokeplasma3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Plasma SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -188,7 +197,7 @@ Description: Plasma SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokeakonadi3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Akonadi SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -200,7 +209,7 @@ Description: Akonadi SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokenepomuk3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Nepomuk SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -212,7 +221,7 @@ Description: Nepomuk SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokenepomukquery3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Nepomuk Query SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -224,7 +233,7 @@ Description: Nepomuk Query SMOKE libraries
  This is part of the SMOKE KDE module.
 
 Package: libsmokesoprano3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
 Replaces: libsmokekde4-2 (<< 4:4.2.60)
 Architecture: any
@@ -238,7 +247,7 @@ Description: Soprano SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokesopranoclient3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
 Replaces: libsmokekde4-2 (<< 4:4.2.60)
 Architecture: any
@@ -252,7 +261,7 @@ Description: Soprano Client SMOKE library
  This is part of the SMOKE KDE module.
 
 Package: libsmokesopranoserver3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libsmokekde4-2 (<< 4:4.2.60)
 Replaces: libsmokekde4-2 (<< 4:4.2.60)
 Architecture: any
@@ -283,8 +292,7 @@ Description: KDE SMOKE libraries -- debug symbols
 
 Package: libsmokekde-dev
 Section: libdevel
-Depends: libsmokeqt4-dev, smoke-dev-tools,
- ${so:Depends}, ${misc:Depends}
+Depends: libsmokeqt4-dev, smoke-dev-tools, ${misc:Depends}, ${so:Depends}
 Architecture: any
 Description: KDE SMOKE libraries -- development files
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -294,4 +302,3 @@ Description: KDE SMOKE libraries -- development files
  multiple languages such as Ruby, C# and PHP.
  .
  This is part of the SMOKE KDE module.
-
