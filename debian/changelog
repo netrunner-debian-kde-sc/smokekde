@@ -1,6 +1,6 @@
 smokekde (4:4.11.3-2) UNRELEASED; urgency=medium
 
-  * 
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 13:37:46 +0100
 
