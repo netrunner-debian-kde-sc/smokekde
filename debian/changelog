@@ -1,3 +1,9 @@
+smokekde (4:4.11.3-3) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 29 Aug 2014 19:20:40 +0200
+
 smokekde (4:4.11.3-2) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
