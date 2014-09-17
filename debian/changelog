@@ -1,8 +1,8 @@
-smokekde (4:4.14.1-1~) UNRELEASED; urgency=medium
+smokekde (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release (4.14.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Sep 2014 19:58:41 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Sep 2014 09:44:49 +0200
 
 smokekde (4:4.11.3-2) unstable; urgency=medium
 
