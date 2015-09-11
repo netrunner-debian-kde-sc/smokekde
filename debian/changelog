@@ -1,3 +1,11 @@
+smokekde (4:4.14.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update standards version to 3.9.6 without further change
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 10 Sep 2015 23:39:53 -0400
+
 smokekde (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).

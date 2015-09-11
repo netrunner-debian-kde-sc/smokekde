@@ -23,7 +23,7 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.6.8),
                shared-desktop-ontologies,
                smoke-dev-tools (>= 4:4.11)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokekde
 Vcs-Git: git://anonscm.debian.org/git/pkg-kde/kde-sc/smokekde.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokekde.git;a=summary
